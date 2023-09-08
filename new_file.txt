@@ -1,13 +1,12 @@
 int main()
 {
-    int count;
-    if (true) {
-        count = 9;
-    }
+    int count = 9;
 
     // some comment
     for(int i = 0; i < count; i++) {
         cout << i << endl;
-        cout << "im happy!!";
+        if (count < 5) {
+            cout << "im happy!!";
+        }
     }
 }
